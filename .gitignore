@@ -13,6 +13,6 @@ venv/
 env/
 .env
 
-# Thư mục build / temp
+# folder build / temp
 .DS_Store
 *.swp
