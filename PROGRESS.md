@@ -1,9 +1,9 @@
 # Learning Progress Dashboard
 
 | Period | Topic | Post / Blog | Drill | First Evidence | Revision Commit | Tag | Status |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-(docs/pre-release/PRE_RELEASE_CATCHUP.md) | [release-baseline-w01-w02.pdf](exercises/release-baseline-w01-w04.pdf) | Current-date baseline | Catch-up corrections | `release-baseline` | PRE-RELEASE |
-| **W05** | Perceptron & MLP (Backprop) | [w05-perceptron-delta.md](docs/weekly/w05-perceptron-delta.md) | [w05-first-attempt.pdf](exercises/w05-first-attempt.pdf) | Pending | Pending | `w05` | ACTIVE |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **W01–W04** | PRE-RELEASE catch-up | [combined post](docs/pre-release/PRE_RELEASE_CATCHUP.md) | [release baseline](exercises/release-baseline-w01-w04.pdf) | [current-date baseline](<insert_baseline_hash>) | [catch-up corrections](<insert_corrections_hash>) | `release-baseline` | PRE-RELEASE |
+| **W05** | Perceptron & MLP (Backprop) | [w05-perceptron-delta.md](docs/weekly/w05-perceptron-delta.md) | [w05-first-attempt.pdf](exercises/w05-first-attempt.pdf) | [pre-AI](<insert_first_attempt_hash>) | [post-ref](<insert_post_ref_hash>) | `w05` | COMPLETED |
 | **W06** | Bayesian Learning / Naive Bayes | docs/weekly/w06-naive-bayes.md | exercises/w06-first-attempt.pdf | — | — | `w06` | PENDING |
 | **W07** | Genetic Algorithm & Bayesian Networks | docs/weekly/w07-ga-bn.md | exercises/w07-first-attempt.pdf | — | — | `w07` | PENDING |
 | **W08** | Midterm Exam Exception | [midterm-reflection.md](exam/midterm-reflection.md) | Timed midterm rehearsal | — | — | `w08-midterm` | PROTECTED |
