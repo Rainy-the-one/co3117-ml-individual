@@ -39,10 +39,10 @@ def test_xor_limitation():
 def test_uci_har_binary_benchmark():
     print("=== 3. BENCHMARK in UCI HAR (WALKING vs. LAYING) ===")
     # Load data UCI HAR
-    (X_train, y_train), (X_test, y_test), _ = load_har_data()
+    (X_train, y_train, _), (X_test, y_test, _), _ = load_har_data()
 
     classes = np.unique(y_train)
-    c1, c2 = classes[0], classes[-1]  # choose two classes for binary classification
+    c1, c2 = classes[3], classes[4]  # choose two classes for binary classification
 
     train_mask = np.isin(y_train, [c1, c2])
     test_mask = np.isin(y_test, [c1, c2])
@@ -77,4 +77,4 @@ def test_uci_har_binary_benchmark():
 if __name__ == "__main__":
     test_linearly_separable_logic_gates()
     test_xor_limitation()
-    # test_uci_har_binary_benchmark()
+    test_uci_har_binary_benchmark()
